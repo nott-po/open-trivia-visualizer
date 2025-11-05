@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 import {useEffect, useState} from "react";
+import CategoryList from './components/CategoryList';
+import CategoryChart from './components/CategoryChart';
+import DifficultyChart from './components/DifficultyChart';
+import { getCategoryData, getDifficultyData } from './utils';
+import { generateMockData } from './mockData';
 
 function App() {
     const [questions, setQuestions] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [selectedCategory, setSelectedCategory] = useState(null);
 
     useEffect(() => {
-        fetch('https://opentdb.com/api.php?amount=50').then(response => response.json()).then(data => {
-            console.log('Fetched data:', data.results);
-            setQuestions(data.results);
+        // mock data for now
+        setTimeout(() => {
+            setQuestions(generateMockData());
             setLoading(false);
-        }).catch(error => {
-            console.error('Error fetching data:', error);
-            setLoading(false);
-        })
+        }, 500);
     }, []);
 
     if(loading){
@@ -26,10 +29,29 @@ function App() {
         )
     }
 
+    const filteredQuestions = selectedCategory
+        ? questions.filter(q => q.category === selectedCategory)
+        : questions;
+
+    const categoryData = getCategoryData(filteredQuestions);
+    const difficultyData = getDifficultyData(filteredQuestions);
+
   return (
     <div className="App">
         <h1>Trivia Questions Visualizer</h1>
-        <p>Loaded  {questions.length} questions</p>
+
+            <CategoryList
+                questions={questions}
+                selectedCategory={selectedCategory}
+                onCategorySelect={setSelectedCategory}
+            />
+
+            <div className="charts-container">
+                <CategoryChart data={categoryData} />
+                <DifficultyChart data={difficultyData} />
+            </div>
+
+            <p className="question-count">Showing {filteredQuestions.length} questions</p>
     </div>
   );
 }
