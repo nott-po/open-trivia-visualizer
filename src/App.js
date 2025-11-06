@@ -87,7 +87,6 @@ function App() {
                 <DifficultyChart data={difficultyData} />
             </div>
 
-            <p className="question-count">Showing {filteredQuestions.length} questions</p>
     </div>
   );
 }
