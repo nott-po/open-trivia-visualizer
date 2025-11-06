@@ -1,0 +1,588 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science &amp; Nature",
+    "question": "Burning which of these metals will produce a bright white flame?",
+    "correct_answer": "Magnesium",
+    "incorrect_answers": [
+      "Copper",
+      "Lithium",
+      "Lead"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "In &quot;Gravity Falls&quot;, the character Bill Cipher remarks that &quot;the universe is what?&quot;",
+    "correct_answer": "A hologram ",
+    "incorrect_answers": [
+      "An illusion ",
+      "A simulation",
+      "Corrupting"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "Which of these is NOT a main playable character in &quot;Grand Theft Auto V&quot;?",
+    "correct_answer": "Lamar",
+    "incorrect_answers": [
+      "Trevor",
+      "Michael",
+      "Franklin"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Politics",
+    "question": "Donald Trump won the popular vote in the 2016 United States presidential election.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science &amp; Nature",
+    "question": "What is the Linnean name of the domestic apple tree?",
+    "correct_answer": "Malus pumila",
+    "incorrect_answers": [
+      "Malus americana",
+      "Pomus domestica",
+      "Appelus delectica"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "English new wave musician Gary Numan founded the video game development company Facepunch Studios in March 2009.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Ed Koch, the Mayor of New York in 1984, played himself in which Muppets movie?",
+    "correct_answer": "The Muppets Take Manhattan",
+    "incorrect_answers": [
+      "The Great Muppet Caper",
+      "The Muppet Christmas Carol",
+      "The Muppet Movie"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Sports",
+    "question": "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?",
+    "correct_answer": "Hammer",
+    "incorrect_answers": [
+      "Wrench",
+      "Drill",
+      "Screwdriver"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "What was the first PlayStation game to require the use of the DualShock controller?",
+    "correct_answer": "Ape Escape",
+    "incorrect_answers": [
+      "Metal Gear",
+      "Tekken ",
+      "Tomba 2!"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "What is the name of the protagonist&#039;s first Persona in &quot;Persona 5&quot;?",
+    "correct_answer": "Arsene",
+    "incorrect_answers": [
+      "Mara",
+      "Izanagi",
+      "Sandaphlon"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sports",
+    "question": "Who won the 2011 Stanley Cup?",
+    "correct_answer": "Boston Bruins",
+    "incorrect_answers": [
+      "Montreal Canadiens",
+      "New York Rangers",
+      "Toronto Maple Leafs"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "The longest shared border in the world can be found between which two nations?",
+    "correct_answer": "Canada and the United States",
+    "incorrect_answers": [
+      "Chile and Argentina",
+      "Russia and China",
+      "India and Pakistan"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Vehicles",
+    "question": "Automobiles produced by Tesla Motors operate on which form of energy?",
+    "correct_answer": "Electricity",
+    "incorrect_answers": [
+      "Gasoline",
+      "Diesel",
+      "Nuclear"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Science &amp; Nature",
+    "question": "How many objects are equivalent to one mole?",
+    "correct_answer": "6.022 x 10^23",
+    "incorrect_answers": [
+      "6.002 x 10^22",
+      "6.022 x 10^22",
+      "6.002 x 10^23"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "In computing, what does LAN stand for?",
+    "correct_answer": "Local Area Network",
+    "incorrect_answers": [
+      "Long Antenna Node",
+      "Light Access Node",
+      "Land Address Navigation"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Geography",
+    "question": "Which of these countries is not written in its native language?",
+    "correct_answer": "Slova&scaron;ko",
+    "incorrect_answers": [
+      "Suomi",
+      "Schweiz",
+      "Ell&aacute;da"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?",
+    "correct_answer": "Exclamation Mark",
+    "incorrect_answers": [
+      "Dollar Sign",
+      "Percent Sign",
+      "Asterisk"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science &amp; Nature",
+    "question": "What is the atomic number of the element Strontium?",
+    "correct_answer": "38",
+    "incorrect_answers": [
+      "73",
+      "47",
+      "11"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "Who is the protagonist in the game &quot;The Walking Dead: Season One&quot;?",
+    "correct_answer": "Lee Everett",
+    "incorrect_answers": [
+      "Clementine",
+      "Kenny",
+      "Rick Grimes"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "Which of the following is NOT a summon in the game &quot;South Park: The Stick of Truth&quot;?",
+    "correct_answer": "Towelie",
+    "incorrect_answers": [
+      "Jesus",
+      "Mr. Hankey",
+      "Mr. Slave"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Video Games",
+    "question": "What was the nickname of the original model for Half-Life&#039;s protagonist Gordon Freeman?",
+    "correct_answer": "Ivan the Space Biker",
+    "incorrect_answers": [
+      "Gordon the Space Biker",
+      "Ivan the Alien Biker",
+      "Gordon the Alien Biker"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "The two atomic bombs dropped on Japan by the United States in August 1945 were named &#039;Little Man&#039; and &#039;Fat Boy&#039;.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science &amp; Nature",
+    "question": "Which type of rock is created by intense heat AND pressure?",
+    "correct_answer": "Metamorphic",
+    "incorrect_answers": [
+      "Sedimentary",
+      "Igneous",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Japanese Anime &amp; Manga",
+    "question": "In Pok&eacute;mon Chronicles, why was Misty afraid of Gyarados?",
+    "correct_answer": "She crawled into it&#039;s mouth as a baby.",
+    "incorrect_answers": [
+      "She found it scary.",
+      "She was badly injured from it.",
+      "It is part Bug."
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Which one of these people has been in the band &#039;&#039;Metallica&#039;&#039; in the past?",
+    "correct_answer": "Dave Mustaine",
+    "incorrect_answers": [
+      "Kurt Cobain",
+      "Joey Belladonna",
+      "Dave Lombardo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "What is the code name for the mobile operating system Android 7.0?",
+    "correct_answer": "Nougat",
+    "incorrect_answers": [
+      "Ice Cream Sandwich",
+      "Jelly Bean",
+      "Marshmallow"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Animals",
+    "question": "A slug&rsquo;s blood is green.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Video Games",
+    "question": "What was the world&#039;s first video game?",
+    "correct_answer": "Draughts",
+    "incorrect_answers": [
+      "Spacewar!",
+      "Pong",
+      "Space Travel"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "medium",
+    "category": "General Knowledge",
+    "question": "The commercial UK channel ITV stands for &quot;International Television&quot;.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Sports",
+    "question": "What team won the 2016 MLS Cup?",
+    "correct_answer": "Seattle Sounders",
+    "incorrect_answers": [
+      "Colorado Rapids",
+      "Toronto FC",
+      "Montreal Impact"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Cartoon &amp; Animations",
+    "question": "Which &#039;Family Guy&#039; character got his own spin-off show in 2009?",
+    "correct_answer": "Cleveland Brown",
+    "incorrect_answers": [
+      "Glenn Quagmire",
+      "Joe Swanson",
+      "The Greased-up Deaf Guy"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "hard",
+    "category": "Entertainment: Music",
+    "question": "Myoui Mina, member of Korean girl group TWICE, was born in South Korea, despite being Japanese.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "Which one of the following rhythm games was made by Harmonix?",
+    "correct_answer": "Rock Band",
+    "incorrect_answers": [
+      "Meat Beat Mania",
+      "Guitar Hero Live",
+      "Dance Dance Revolution"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Animals",
+    "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+      "False"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Science &amp; Nature",
+    "question": "Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?",
+    "correct_answer": "Carl Jung",
+    "incorrect_answers": [
+      "Jean Piaget",
+      "Alice Miller",
+      "Hermann Rorschach"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Entertainment: Video Games",
+    "question": "In &quot;Call Of Duty: Zombies&quot;, which weapon does NOT deal any damage?",
+    "correct_answer": "31-79 JGb215",
+    "incorrect_answers": [
+      "Sliquifier",
+      "V-R11",
+      "Wunderwaffe DG-2"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "How many strings are there on a cello?",
+    "correct_answer": "4",
+    "incorrect_answers": [
+      "5",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Japanese Anime &amp; Manga",
+    "question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+    "correct_answer": "Elizabeth Midford",
+    "incorrect_answers": [
+      "Rachel Phantomhive",
+      "Alexis Leon Midford",
+      "Angelina Dalles"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Video Games",
+    "question": "Which of these is NOT a playable character in the 2016 video game Overwatch?",
+    "correct_answer": "Invoker",
+    "incorrect_answers": [
+      "Mercy",
+      "Winston",
+      "Zenyatta"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "General Knowledge",
+    "question": "Which of these companies does NOT manufacture automobiles?",
+    "correct_answer": "Ducati",
+    "incorrect_answers": [
+      "Nissan",
+      "GMC",
+      "Fiat"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Television",
+    "question": "What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?",
+    "correct_answer": "Legends of Tomorrow",
+    "incorrect_answers": [
+      "Heroes of Tomorrow",
+      "The Justice Society of America",
+      "The Justice Society"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Television",
+    "question": "In the original Star Trek TV series, what was Captain James T. Kirk&#039;s middle name?",
+    "correct_answer": "Tiberius",
+    "incorrect_answers": [
+      "Trevor",
+      "Travis",
+      "Tyrone"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "What is the capital of Spain?",
+    "correct_answer": "Madrid",
+    "incorrect_answers": [
+      "Barcelona",
+      "Sevilla",
+      "Toledo"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Animals",
+    "question": "What colour is the female blackbird?",
+    "correct_answer": "Brown",
+    "incorrect_answers": [
+      "Black",
+      "White",
+      "Yellow"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Film",
+    "question": "Which famous singer was portrayed by actor Kevin Spacey in the 2004 biographical film &quot;Beyond the Sea&quot;?",
+    "correct_answer": "Bobby Darin",
+    "incorrect_answers": [
+      "Louis Armstrong",
+      "Frank Sinatra",
+      "Dean Martin"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Computers",
+    "question": "Which computer language would you associate Django framework with?",
+    "correct_answer": "Python",
+    "incorrect_answers": [
+      "C#",
+      "C++",
+      "Java"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "General Knowledge",
+    "question": "In &quot;Shrek&quot;, what comedic actor voices Donkey?",
+    "correct_answer": "Eddie Murphy",
+    "incorrect_answers": [
+      "Chris Rock",
+      "Richard Pryor",
+      "Bernie Mac"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "General Knowledge",
+    "question": "Which of the following buildings is example of a structure primarily built in the Art Deco architectural style?",
+    "correct_answer": "Niagara Mohawk Building",
+    "incorrect_answers": [
+      "Taipei 101",
+      "One Detroit Center",
+      "Westendstrasse 1"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Video Games",
+    "question": "What was the first interactive movie video game?",
+    "correct_answer": "Astron Belt",
+    "incorrect_answers": [
+      "Dragon&#039;s Lair",
+      "Cube Quest",
+      "M.A.C.H. 3"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "General Knowledge",
+    "question": "The Quadrangularis Reversum is best described as which of the following?",
+    "correct_answer": "A percussion instrument",
+    "incorrect_answers": [
+      "A building in Oxford University",
+      "A chess move",
+      "A geometric theorem"
+    ]
+  }
+]

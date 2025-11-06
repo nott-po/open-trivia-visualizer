@@ -1,6 +1,12 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 
-const COLORS = ['#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#7ea87a', '#f4a261', '#e76f51'];
+
+const DIFFICULTY_COLORS = {
+    'Easy': '#7ea87a',
+    'Medium': '#f4a261',
+    'Hard': '#e76f51'
+};
 
 function DifficultyChart({data}) {
     if(!data || data.length === 0) return null;
@@ -22,17 +28,25 @@ function DifficultyChart({data}) {
                         dataKey="count"
                     >
                         {data.map((entry, index) => (
-                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            <Cell
+                                key={`cell-${index}`}
+                                fill={DIFFICULTY_COLORS[entry.name] || COLORS[index % COLORS.length]}
+                            />
                         ))}
                     </Pie>
-
-                    <Tooltip />
+                    <Tooltip
+                        contentStyle={{
+                            background: 'white',
+                            border: '1px solid #e2e8f0',
+                            borderRadius: '8px'
+                        }}
+                    />
                     <Legend />
                 </PieChart>
 
             </ResponsiveContainer>
         </div>
-    )
+    );
 }
 
 export default DifficultyChart;
