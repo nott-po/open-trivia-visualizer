@@ -5,6 +5,7 @@ import CategoryList from './components/CategoryList';
 import CategoryChart from './components/CategoryChart';
 import DifficultyChart from './components/DifficultyChart';
 import StatsCards from './components/StatsCards';
+import LoadingSkeleton from './components/LoadingSkeleton';
 import { getCategoryData, getDifficultyData } from './utils';
 import cachedData from './cachedData.json';
 
@@ -47,14 +48,7 @@ function App() {
     }, []);
 
     if(loading){
-        return(
-            <div className="App">
-                <h1>Trivia Questions Visualizer</h1>
-                <div className="category-list">
-                    <p>Loading questions...</p>
-                </div>
-            </div>
-        );
+        return <LoadingSkeleton />;
     }
 
     const filteredQuestions = selectedCategory
