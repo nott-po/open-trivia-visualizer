@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import {FiSearch, FiX} from "react-icons/fi";
+import {MdNumbers} from "react-icons/md";
+import {BiSortAlt2} from "react-icons/bi";
 
 function CategoryList({ questions, selectedCategory, onCategorySelect }) {
     const [searchTerm, setSearchTerm] = useState('');
+    const [sortBy, setSortBy] = useState('alphabetical'); // or count
 
     if (!questions || questions.length === 0) {
         return null;
@@ -12,10 +15,43 @@ function CategoryList({ questions, selectedCategory, onCategorySelect }) {
 
     const filteredCategories = categories.filter(category => category.toLowerCase().includes(searchTerm.toLowerCase()));
 
+    // sorting based on the selectted option
+    if(sortBy === 'alphabetical') {
+        filteredCategories.sort();
+    } else if(sortBy === 'count'){
+        filteredCategories.sort((a,b) => {
+            const cA = questions.filter(q => q.category === a).length;
+            const cB = questions.filter(q => q.category === b).length;
+            // descending
+            return cB - cA;
+        })
+    }
+
     return (
         <div className="category-list">
             <div className="category-header">
                 <h2>Categories</h2>
+
+                <div className={"category-controls "}>
+                <div className={"sort-buttons"}>
+                    <button
+                        className={`sort-btn ${sortBy === 'alphabetical' ? 'active' : ''}`}
+                        onClick={() => setSortBy('alphabetical')}
+                        title="Sort alphabetically"
+                    >
+                        <BiSortAlt2 className="sort-icon" />
+                        A-Z
+                    </button>
+                    <button
+                        className={`sort-btn ${sortBy === 'count' ? 'active' : ''}`}
+                        onClick={() => setSortBy('count')}
+                        title="Sort by question count"
+                    >
+                        <MdNumbers className="sort-icon" />
+                        Count
+                    </button>
+                </div>
+
                 <div className="search-bar">
                     <span className="search-icon">
                         <FiSearch className="search-icon" />
@@ -35,6 +71,7 @@ function CategoryList({ questions, selectedCategory, onCategorySelect }) {
                             <FiX />
                         </button>
                     )}
+                </div>
                 </div>
             </div>
 
