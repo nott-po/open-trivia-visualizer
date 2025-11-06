@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
+import { decodeHtml, getDifficultyColor } from '../utils';
 
 function QuestionsTable({ questions, selectedCategory }) {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -9,21 +10,6 @@ function QuestionsTable({ questions, selectedCategory }) {
 
     const displayQuestions = questions.slice(0, showCount);
     const hasMore = questions.length > showCount;
-
-    const getDifficultyColor = (difficulty) => {
-        switch(difficulty) {
-            case 'easy': return '#7ea87a';
-            case 'medium': return '#f4a261';
-            case 'hard': return '#e76f51';
-            default: return '#718096';
-        }
-    };
-
-    const decodeHtml = (html) => {
-        const txt = document.createElement('textarea');
-        txt.innerHTML = html;
-        return txt.value;
-    };
 
     const getAllAnswers = (question) => {
         const incorrect = question.incorrect_answers || [];

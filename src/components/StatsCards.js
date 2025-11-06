@@ -1,23 +1,22 @@
 import { FiBarChart2 } from 'react-icons/fi';
 import { HiTrendingUp } from 'react-icons/hi';
 import { MdSpeed } from 'react-icons/md';
+import { getCategoryData, getDifficultyData, decodeHtml  } from '../utils';
 
 function StatsCards({questions}){
     if (!questions || questions.length === 0) return null;
 
     const totalQuestions = questions.length;
 
-    const categoryCounts = {};
-    questions.forEach(q => {
-        categoryCounts[q.category] = (categoryCounts[q.category] || 0) + 1;
-    })
+    const categoryData = getCategoryData(questions);
+    const mostPopular = categoryData.sort((a, b) => b.count - a.count)[0];
 
-    const mostPopular = Object.entries(categoryCounts).sort((a, b) => b[1] - a[1])[0];
-
-    const difficultyCounts = { easy: 0, medium: 0, hard: 0 };
-    questions.forEach(q => {
-        difficultyCounts[q.difficulty]++;
-    });
+    const difficultyData = getDifficultyData(questions);
+    const difficultyCounts = {
+        easy: difficultyData.find(d => d.name === 'Easy')?.count || 0,
+        medium: difficultyData.find(d => d.name === 'Medium')?.count || 0,
+        hard: difficultyData.find(d => d.name === 'Hard')?.count || 0
+    };
 
     return(
         <div className="stats-grid">
@@ -33,10 +32,10 @@ function StatsCards({questions}){
                 <div className="stat-icon">
                     <HiTrendingUp />
                 </div>
-                <div className="stat-value">{mostPopular[1]}</div>
+                <div className="stat-value">{mostPopular.count}</div>
                 <div className="stat-label">
                     Most Popular<br/>
-                    <span className="stat-sublabel">{mostPopular[0]}</span>
+                    <span className="stat-sublabel">{decodeHtml(mostPopular.name)}</span>
                 </div>
             </div>
 

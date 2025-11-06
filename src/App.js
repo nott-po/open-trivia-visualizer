@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {useEffect, useState} from "react";
 import CategoryList from './components/CategoryList';
@@ -31,14 +30,12 @@ function App() {
                     if (data.response_code === 0 && data.results) {
                         setQuestions(data.results);
                         setDataSource('live');
-                        console.log('Using live API data');
                     } else {
                         throw new Error('API returned error code');
                     }
                 }
             } catch (err) {
                 // cached real data
-                console.log('API unavailable, using cached data');
                 setQuestions(cachedData);
                 setDataSource('cached');
             } finally {

@@ -24,3 +24,23 @@ export function getDifficultyData(questions) {
         count
     }));
 }
+
+export function decodeHtml(html) {
+    const txt = document.createElement('textarea');
+    txt.innerHTML = html;
+    return txt.value;
+}
+
+export const DIFFICULTY_COLORS = {
+    'easy': '#7ea87a',
+    'medium': '#f4a261',
+    'hard': '#e76f51',
+    // Capital version for charts
+    'Easy': '#7ea87a',
+    'Medium': '#f4a261',
+    'Hard': '#e76f51'
+};
+
+export function getDifficultyColor(difficulty) {
+    return DIFFICULTY_COLORS[difficulty] || '#718096';
+}
