@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {FiSearch, FiX} from "react-icons/fi";
 import {MdNumbers} from "react-icons/md";
 import {BiSortAlt2} from "react-icons/bi";
-import { getCategoryData, decodeHtml } from '../utils';
+import { decodeHtml } from '../utils';
 
 function CategoryList({ questions, selectedCategory, onCategorySelect }) {
     const [searchTerm, setSearchTerm] = useState('');
