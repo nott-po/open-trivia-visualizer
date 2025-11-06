@@ -6,7 +6,7 @@ function LoadingSkeleton() {
         <div className="App">
             <h1>Trivia Questions Visualizer</h1>
 
-            // STATS CARDS
+            {/*STATS CARDS*/}
             <div className="stats-grid">
                 {[1, 2, 3].map(i => (
                     <div key={i} className="stat-card">
@@ -17,7 +17,7 @@ function LoadingSkeleton() {
                 ))}
             </div>
 
-            // CATEGORIES LIST
+            {/* CATEGORIES LIST */}
             <div className="category-list">
                 <div className="category-header">
                     <Skeleton height={24} width={150} />
@@ -33,7 +33,7 @@ function LoadingSkeleton() {
                 </div>
             </div>
 
-            // CHARTS
+            {/*CHARTS*/}
             <div className="charts-container">
                 {[1, 2].map(i => (
                     <div key={i} className="chart-container">

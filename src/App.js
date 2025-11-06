@@ -6,8 +6,10 @@ import CategoryChart from './components/CategoryChart';
 import DifficultyChart from './components/DifficultyChart';
 import StatsCards from './components/StatsCards';
 import LoadingSkeleton from './components/LoadingSkeleton';
+import QuestionsTable from './components/QuestionsTable';
 import { getCategoryData, getDifficultyData } from './utils';
 import cachedData from './cachedData.json';
+
 
 function App() {
     const [questions, setQuestions] = useState([]);
@@ -80,6 +82,11 @@ function App() {
                 <CategoryChart data={categoryData} />
                 <DifficultyChart data={difficultyData} />
             </div>
+
+            <QuestionsTable
+                questions={filteredQuestions}
+                selectedCategory={selectedCategory}
+            />
 
     </div>
   );
