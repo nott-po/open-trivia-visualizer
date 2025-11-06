@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import CategoryList from './components/CategoryList';
 import CategoryChart from './components/CategoryChart';
 import DifficultyChart from './components/DifficultyChart';
+import StatsCards from './components/StatsCards';
 import { getCategoryData, getDifficultyData } from './utils';
 import cachedData from './cachedData.json';
 
@@ -72,6 +73,8 @@ function App() {
                     ℹ️ Using cached data due to API rate limits. The app normally fetches live data from Open Trivia DB.
                 </div>
             )}
+
+            <StatsCards questions={questions} />
 
             <CategoryList
                 questions={questions}
