@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/open-trivia-visualizer/static/css/main.30524c48.css",
+    "main.js": "/open-trivia-visualizer/static/js/main.70bcf07c.js",
+    "static/js/453.2062c31b.chunk.js": "/open-trivia-visualizer/static/js/453.2062c31b.chunk.js",
+    "index.html": "/open-trivia-visualizer/index.html",
+    "main.30524c48.css.map": "/open-trivia-visualizer/static/css/main.30524c48.css.map",
+    "main.70bcf07c.js.map": "/open-trivia-visualizer/static/js/main.70bcf07c.js.map",
+    "453.2062c31b.chunk.js.map": "/open-trivia-visualizer/static/js/453.2062c31b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30524c48.css",
+    "static/js/main.70bcf07c.js"
+  ]
+}
